@@ -5,20 +5,6 @@
 #include <sys/socket.h>
 #include <unistd.h>
 
-
-/*void setHttpHeader(char httpHeader[],char Dir[])
-{
-    // File object to return
-
-    FILE *htmlData = fopen("index.html","r");
-    char line[100];
-    char responseData[8000];
-    while (fgets(line, 100, htmlData) != 0) {
-        strcat(responseData, line);
-    }
-    // char httpHeader[8000] = "HTTP/1.1 200 OK\r\n\n";
-    strcat(httpHeader, responseData);
-}*/
 int main()
 {
 
